@@ -1,0 +1,73 @@
+/* Global Styles */
+* {
+    font-family: Arial, sans-serif; /* Setting the font */
+    margin: 0; /* Reset default margin */
+    box-sizing: border-box; /* Include padding and border in element's total width and height */
+  }
+  
+  body,
+  body > div {
+    height: 100vh; /* Full viewport height */
+    width: 100vw; /* Full viewport width */
+  }
+  
+  /* Container Styles */
+  #container {
+    height: 100%; /* Full height for the container */
+    display: flex; /* Use flexbox for layout */
+    flex-direction: column; /* Stack children vertically */
+  }
+  
+  /* Navbar Styles */
+  #navbar {
+    padding: 1em; /* Space inside the navbar */
+    display: flex; /* Use flexbox for alignment */
+    justify-content: space-evenly; /* Even spacing between links */
+    background-color: #f8f9fa; /* Light background for navbar */
+    border-bottom: 1px solid #ccc; /* Add a border below the navbar */
+  }
+  
+  /* Main Section Styles */
+  #main-section {
+    flex-grow: 1; /* Allow main section to grow and take up remaining space */
+  }
+  
+  /* Component Specific Styles */
+  .red {
+    background-color: #b05f6d; /* Red background */
+    color: white; /* White text color */
+    height: 100%; /* Full height */
+    display: flex; /* Use flexbox for centering content */
+    align-items: center; /* Center vertically */
+    justify-content: center; /* Center horizontally */
+  }
+  
+  .blue {
+    background-color: #275db3; /* Blue background */
+    color: white; /* White text color */
+    height: 100%; /* Full height */
+    display: flex; /* Use flexbox for centering content */
+    align-items: center; /* Center vertically */
+    justify-content: center; /* Center horizontally */
+  }
+  
+  .home {
+    background-color: lightgray; /* Light gray background for home */
+    height: 100%; /* Full height */
+    display: flex; /* Use flexbox for centering content */
+    align-items: center; /* Center vertically */
+    justify-content: center; /* Center horizontally */
+  }
+  
+  /* Link Styles */
+  #navbar a {
+    text-decoration: none; /* Remove underline from links */
+    color: #007bff; /* Link color */
+    font-size: 1.2em; /* Size of the link text */
+    transition: color 0.3s; /* Smooth transition for hover effect */
+  }
+  
+  #navbar a:hover {
+    color: #0056b3; /* Darker color on hover */
+  }
+  
