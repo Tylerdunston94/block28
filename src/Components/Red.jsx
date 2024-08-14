@@ -1,3 +1,4 @@
+// src/components/Red.jsx
 export default function Red() {
     return (
       <div className="red">

@@ -1,3 +1,4 @@
+// src/components/Blue.jsx
 export default function Blue() {
     return (
       <div className="blue">
